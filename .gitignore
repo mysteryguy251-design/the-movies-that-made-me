@@ -39,3 +39,15 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Local development backups
+*.bak
+*.backup.tsx
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Database source backups
+*.backup.ts
